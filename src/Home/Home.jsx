@@ -1,16 +1,20 @@
-import { Menu } from "../shared/Menu/Menu"
 import { History } from "../History/History"
+import { Members } from "../Members/Members"
+
 import './Home.css'
 
 export function Home(){
     return(
         <>
-            <Menu/>
             <section className="banner">
                 <section>
                     <History/>    
+                    <Members/>
                 </section>
+
+                
             </section>
+            
             
             
         </>
