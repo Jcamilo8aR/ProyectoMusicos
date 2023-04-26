@@ -9,7 +9,6 @@ export function Home(){
             <section className="banner">
                 <section>
                     <History/>    
-                    <Members/>
                 </section>
 
                 

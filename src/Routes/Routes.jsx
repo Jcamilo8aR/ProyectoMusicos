@@ -4,7 +4,7 @@ import { Home } from "../Home/Home"
 import { Members } from "../Members/Members"
 import { Menu } from "../shared/Menu/Menu"
 
-export function Routes(){
+export function Ruta(){
     return(
         <>
             <Menu/>
