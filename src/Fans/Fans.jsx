@@ -1,5 +1,3 @@
-import "./Fans.css"
-
 export function Fans(){
     return(
         <>
@@ -41,7 +39,7 @@ export function Fans(){
             </section>
 
 
-            <section className="container">
+            <section className="container fs-5">
                 <section>
                     <div className="col-12 text-center text-white mt-4 mb-3">
                         <h3>Responde estas 5 preguntas y descubre que integrante eres!</h3>
@@ -49,86 +47,86 @@ export function Fans(){
 
                     <form class="row g-3 text-white mt-3 mb-5  px-5 ">
                         <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label fs-3  w-100">Pregunta 1</label>
+                            <label for="inputEmail4" class="form-label fs-4  w-100">1. ¿Que color prefieres?</label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                             <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 1
+                                    Amarillo
                             </label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"/>
                             <label class="form-check-label" for="flexRadioDefault2">
-                                    Opcion 2
+                                    Negro
                             </label>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label fs-3  w-100">Pregunta 2</label>
+                            <label for="inputEmail4" class="form-label fs-4  w-100">2. ¿Cual de estos 2 discos prefieres?</label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                             <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 1
+                                    Human After All
                             </label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                             <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 2
-                            </label>
-                        </div>
-
-
-                        <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label fs-3  w-100">Pregunta 3</label>
-                        </div>
-                        <div class="col-md-3 form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 1
-                            </label>
-                        </div>
-                        <div class="col-md-3 form-check">
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
-                            <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 2
+                                    Homerwork
                             </label>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label fs-3  w-100">Pregunta 4</label>
+                            <label for="inputEmail4" class="form-label fs-4  w-100">3 .¿Que animal te gusta mas?</label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                             <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 1
+                                    Perro
                             </label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                             <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 2
+                                    Gato
                             </label>
                         </div>
 
 
                         <div class="col-md-6">
-                            <label for="inputEmail4" class="form-label fs-3  w-100">Pregunta 5</label>
+                            <label for="inputEmail4" class="form-label fs-4  w-100">4. ¿Tocas algun instrumento?</label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                             <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 1
+                                    Si
                             </label>
                         </div>
                         <div class="col-md-3 form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
                             <label class="form-check-label" for="flexRadioDefault1">
-                                    Opcion 2
+                                    No
+                            </label>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label fs-4  w-100">5. ¿Te gusta correr?</label>
+                        </div>
+                        <div class="col-md-3 form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                   Si
+                            </label>
+                        </div>
+                        <div class="col-md-3 form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"/>
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                    No
                             </label>
                         </div>
                         

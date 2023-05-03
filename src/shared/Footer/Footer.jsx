@@ -35,7 +35,7 @@ export function Footer(){
                             <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4 ">
 
                                 <h6 className="text-uppercase fw-bold mb-2">
-                                    <i className="text-secondary"></i>Dank Punk
+                                    <i className="text-secondary"></i>Daft Punk
                                 </h6>
                                 <p>
                                 Pagina web sobre Daft Punk y relacionados. Enterate de las ultimas noticias y hazte con mercancia oficial!

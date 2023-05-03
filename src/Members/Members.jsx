@@ -13,8 +13,8 @@ export function Members(){
                         </div>
 
                         <div className="col-12 col-md-6 my-5">
-                            <h4 className="text-center">Guy-Manuel de Homem-Christo</h4>
-                            <p className='my-3'>
+                            <h4 className="text-center my-2">Guy-Manuel de Homem-Christo</h4>
+                            <p className='mb-3'>
                             Neuilly-sur-Seine, Isla de Francia, 8 de febrero de 1974 <br/> 
                             Rol: DJ y productor
                             </p>
@@ -27,12 +27,12 @@ export function Members(){
 
                         
                         <div className="col-12 col-md-6">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/ThomasBangalter.jpg?alt=media&token=924ef598-9e07-472d-b2fd-44059ff1d4f5" alt="foto" className='img-fluid w-100 rounded-1' />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/Miembro-Thomas.jpg?alt=media&token=698976fb-b261-42c1-aace-5cff0133f095" alt="foto" className='img-fluid w-100 rounded-1' />
                         </div> 
 
                         <div className="col-12 col-md-6 my-5">
-                            <h4 className="text-center">Thomas Bangalter</h4>
-                            <p className='my-3'>
+                            <h4 className="text-center my-2">Thomas Bangalter</h4>
+                            <p className='mb-3'>
                             París, 3 de enero de 1975<br/> 
                             Rol: DJ, productor, compositor y escritor
                             </p>

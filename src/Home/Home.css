@@ -1,3 +1,6 @@
+body{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/BackgroundBlack.webp?alt=media&token=258049b2-55b1-4d89-b857-3f1d8516a99b');
+}
 
 .banner{
     background-image: url('https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/Background%20Black-Gold.jpg?alt=media&token=1183ecf8-bde1-4ba5-a361-036036e0f670');
@@ -12,9 +15,6 @@
 }
 
 .banner2{
-    background-color: black;
-    background-position: top center;
-    background-size: cover;
 
     padding: 5% 10%;
     /*filter: grayscale(100%);*/
@@ -22,7 +22,7 @@
 }
 
 .container{
-    /* background-color: rgba(0,0,0,0.5); */
+     /* background-color: rgba(0,0,0,0.5);  */
     border-radius: 1%;
 }
 
