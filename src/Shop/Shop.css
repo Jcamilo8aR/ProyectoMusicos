@@ -1,0 +1,14 @@
+body{
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/BackgrounRedCarpet.png?alt=media&token=ba98ae8e-56a1-4a4e-933d-8c39d85b713b');
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel{
+    width: 90%;
+    margin: 0 auto;
+    
+}
