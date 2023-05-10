@@ -31,6 +31,11 @@ export function Menu() {
                   Fans
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to="/asd">
+                  Hooks
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

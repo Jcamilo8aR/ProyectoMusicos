@@ -11,4 +11,8 @@
 
 }
 
+.bw{
+    filter: grayscale(1);
+}
+
 

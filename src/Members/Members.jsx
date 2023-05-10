@@ -1,6 +1,17 @@
 import './Members.css'
 
 export function Members(){
+
+    function over(evento){
+        (evento.target.classList.add("bw"))    
+    }
+
+    function leave(evento){
+        (evento.target.classList.remove("bw"))   
+    }
+
+    
+
     return(
         <>
             <section className="banner3">
@@ -22,12 +33,12 @@ export function Members(){
                         </div>
 
                         <div className="col-12 col-md-6">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/guy-manuel-de-homem-christo.jpg?alt=media&token=658386a9-7c12-4cfe-849c-251894f49371" alt="foto" className='img-fluid  w-100 rounded-1' />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/guy-manuel-de-homem-christo.jpg?alt=media&token=658386a9-7c12-4cfe-849c-251894f49371" alt="foto" className='img-fluid  w-100 rounded-1' onMouseOver={over} onMouseLeave={leave}/>
                         </div>
 
                         
                         <div className="col-12 col-md-6">
-                            <img src="https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/Miembro-Thomas.jpg?alt=media&token=698976fb-b261-42c1-aace-5cff0133f095" alt="foto" className='img-fluid w-100 rounded-1' />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/musicosjcor.appspot.com/o/Miembro-Thomas.jpg?alt=media&token=698976fb-b261-42c1-aace-5cff0133f095" alt="foto" className='img-fluid w-100 rounded-1' onMouseOver={over} onMouseLeave={leave}/>
                         </div> 
 
                         <div className="col-12 col-md-6 my-5">
