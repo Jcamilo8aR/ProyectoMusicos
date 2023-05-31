@@ -4,8 +4,8 @@ export async function consultarCanciones(){
     
     // 1. A DONDE VOY - URL + ENDPOINT DEL SERVICIO
     const idArtista="4tZwfgrHOc3mvqYlEYSvVi"
-    const URL=`https://api.spotify.com/v1/artists/${idArtista}/top-tracks?market=us`
-    const TOKEN="Bearer BQA4hG1w9OdA8OuSBwcQXQsjK0eSv70iGd5D_QF15-PXdmVEM2k_eCAz6cAZ71_jQiv4tgb9L1v9AecPv_X3-pfev1klwemS6uS2qEom5x9617s90D4"
+    const URI=`https://api.spotify.com/v1/artists/${idArtista}/top-tracks?market=us`
+    const TOKEN="Bearer BQC8MLVrh_omqSt79jeLENbk8MAsIErTJKpBHhsLaFGlVUYU0INzGB4jUGrJ4qXWFael3ZmtWRBtwzlYz3f_OK_WveZEulltgbX_N4-DwLVCVFmssGE"
 
 
     // 2. QUE VOY A HACER 
@@ -13,15 +13,16 @@ export async function consultarCanciones(){
     let peticion={
         method:"GET",
         headers:{
-            "Autorization":TOKEN
-        }
+            "Authorization":TOKEN
+        },
     }
 
 
     // 3. CONSUMIR LA API
     // utilice la promesa FETCH para ir al back y consumir la API
-    let respuesta=await fetch(URL,peticion) 
+    let respuesta=await fetch(URI,peticion)
     // el codigo no hace nada hasta que termine lo del await
+    
     let canciones=await respuesta.json()
 
     return canciones
