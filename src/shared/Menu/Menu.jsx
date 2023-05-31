@@ -36,6 +36,11 @@ export function Menu() {
                   Hooks
                 </Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link active" to="/musica">
+                  Musica
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

@@ -8,6 +8,7 @@ import { Menu } from "../shared/Menu/Menu"
 import { Footer } from "../shared/Footer/Footer"
 import { Hook } from "../Hook/Hook"
 import { Carga } from "../Hook/Carga"
+import { Music } from "../Music/Music"
 
 export function Ruta(){
     return(
@@ -20,6 +21,7 @@ export function Ruta(){
                 <Route path="/fans" element={<Fans />} />
                 <Route path="/asd" element={<Hook />} />
                 <Route path="/carga" element={<Carga />} />
+                <Route path="/musica" element={<Music />} />
             </Routes>
             <Footer/>
         </>
