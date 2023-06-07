@@ -5,7 +5,7 @@ export async function consultarConAxios(){
     // URI= URL + EDNPOINT DEL SERVICIO
     const idArtista="4tZwfgrHOc3mvqYlEYSvVi"
     const URI=`https://api.spotify.com/v1/artists/${idArtista}/top-tracks?market=us`
-    const TOKEN="Bearer BQC8MLVrh_omqSt79jeLENbk8MAsIErTJKpBHhsLaFGlVUYU0INzGB4jUGrJ4qXWFael3ZmtWRBtwzlYz3f_OK_WveZEulltgbX_N4-DwLVCVFmssGE"
+    const TOKEN="Bearer BQDotIGt7CdFvEGZ-Y1RjWydj26DsGsHjlpoaHyev7jSKab9W1wdSL23BDvtWO7dBxY7Az2XSzQx9U8Oa_BD8Jb8TAZCxxFWiLo1GCuwCOAuDjIpHso"
 
 
     // CONSTRUYO LA PETICION

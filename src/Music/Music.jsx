@@ -1,23 +1,35 @@
 import { consultarConAxios } from "../Services/serivicioCancionesAXIOS"
-import { consultarCanciones } from "../Services/servicioCanciones"
+import { consultarCanciones, getToken } from "../Services/servicioCanciones"
 import { useState,useEffect } from "react"
 import "./Music.css"
 
 export function Music(){
 
 
-    const [canciones,setCanciones]=useState('')
-    const[cargando,setCargando]=useState(true)
+    const [canciones, setCanciones] = useState(null)
+      const [cargando, setCargando] = useState(true)
+      const [token, setToken] = useState(null)
 
-    useEffect(function(){
 
-        consultarConAxios().then(function(respuesta){
-                setCanciones(respuesta.tracks)
-                console.log(respuesta)
-                setCargando(false)
-        })
 
-    },[])
+      useEffect(function () {
+            getToken().then(respuesta => {
+                  setToken(respuesta.access_token)
+            })
+      }, [])
+
+
+      useEffect(function () {
+            if (token) {
+                  consultarCanciones(token).then(function (respuesta) {
+                        console.log(respuesta);
+                        setCanciones(respuesta.tracks);
+                        setCargando(false)
+                  })
+            }
+
+      }, [token]);
+
 
 
     if(cargando){
@@ -30,12 +42,12 @@ export function Music(){
         return(
             <>
             
-            <div className="containerMusic">
-                <div className="row row-cols-1 row-cols-md-2 g-5">
+            <div className="containerMusic border">
+                <div className="row row-cols-2 row-cols-md-2 g-3 ">
                     {
                         canciones.map(function(cancion){
                             return(
-                                <div className="card shadow mx-5 p-3 bg-black text-white">
+                                <div className="card shadow p-5 bg-black text-white ">
                                     <h4 className="fs-5 fw-bold text-center">{cancion.name}</h4>
                                     <p>Fecha de Salida: {cancion.album.release_date}</p>
                                     <p>Popularidad: {cancion.popularity}</p>
